@@ -1,2 +1,2 @@
 # zsl-2aG
-tutaj wrzucamy odpowiedzi i notatki i wgl
+tutaj wrzucam odpowiedzi i notatki i wgl
