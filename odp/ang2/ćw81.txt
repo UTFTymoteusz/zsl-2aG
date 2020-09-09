@@ -1,0 +1,29 @@
+5.
+1 - B
+2 - B
+3 - A
+4 - B
+5 - C
+6 - A
+
+6.
+1 - lasting
+2 - faced
+3 - timed
+4 - tax
+5 - streetwise
+6 - kind
+
+7.
+1 - B
+2 - A
+3 - C
+4 - A
+5 - C
+
+8.
+1 - ~~the~~  > of
+2 - ~~on~~   > in
+3 - ~~face~~ > faced
+4 - ~~take~~ > create
+5 - ~~near~~ > far
