@@ -1,0 +1,58 @@
+Lekcja 09/09/20
+Temat: Adresy IP.
+
+IP
+Adres logiczny hosta w sieci.
+a) Występują:
+  - IPv4 składająca się z 32 bitów, gdzie zawarte są informacje o ADRESIE SIECI i NUMERZE HOSTA, rozdziela je nałożona MASKA.
+    192.168.31.25
+    255.255.255.0 (/24)
+
+    Sieci: 192.168.31.0
+    Hosta: .25
+
+    (ANDujemy bitowo adres z maską i mamy sieci, to co zostało to hosta)
+
+    Adres IP ma formę bitową lub dziesiętną.
+
+    10110001.11001110.00001110.10101011
+       177      206      14       171
+
+  - IPv6 składająca się z 128 bitów, bazuje on na unicaście, multicaście oraz anycaście. 
+    Zapis uproszczony jest w systemie hexadecymalnym.
+    Uproszczenie zapisu hexadecymalnego.
+
+    *wydrukowane bd*
+
+Adres IPv4 został zklasyfikowany na klasy.
+Klasa A - Wielkie sieci
+1.0.0.0 -> 126.0.0.0
+Z maską najczęściej 8 bitową
+Pierwsze bit 0
+
+Sieć prywatna: 10.0.0.0
+
+Klasa B - Średnie sieci
+128.0.0.0 -> 191.255.0.0
+Z maską najczęściej 16 bitową
+Pierwsze dwa bity 10
+
+Sieć prywatna: 172.20.0.0
+
+Klasa C - Małe sieci
+192.0.0.0 -> 223.255.255.0
+Z maską najczęściej 24 bitową
+Pierwsze trzy bity 110
+
+Sieć prywatna: 192.168.0.0
+
+Klasa D i E są eksperymentalne (niewykorzystywane)
+
+127.0.0.1 - LOCALHOST
+
+Temat: Elementy adresacji IP.
+
+1. Maska
+Ciąg 32 bitów który rozdziela nam AS od NH (adres sieci od numeru hosta).
+Wyrażamy w ilości jedynek.
+Są maski regularne (8, 16, 24) i nieregularne.
