@@ -1,3 +1,29 @@
+Lekcja ??/??/??
+Temat: ?
+
+Baza danych 
+Zbiór struktur danych służących do organizowania i przechowywania danych
+
+Baza danych to zintegrowana grupa ogólnie dostępnych zbiorów danych
+
+Relacja to podstawowa forma realizacji danych
+
+Baza danych jest zarządzana przez System Zarządzania Bazą Danych (SZBD)
+
+Operacyjna BD przecnowuje dane dynamiczne najczęstrze
+
+Lekcja ??/??/??
+Temat: ?
+
+Modele BD
+ - Hierarchiczny
+ - Sieciowy
+ - Relacyjny
+ - Obiektowy
+ - Postrelacyjny
+
+Redundacja - duplikacja danych w różnych plikach
+
 Lekcja 1/10/20
 Temat: Podstawowe pojęcia relacyjnej bazy danych.
 
