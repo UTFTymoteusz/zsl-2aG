@@ -58,3 +58,8 @@ Każdemu rekordowi z tabeli A może odpowiadać wiele rekordów z tabeli B, ale 
 wiele-do-wielu ∞:∞
 No po prostu wiele do wielu
 W przypadku wystąpiena relacji wiele-do-wielu, definiuje się dodatkową tabelę która pozwala zdefiniować dwie relacje jeden-do-wielu.
+
+
+Lekcja 8/10/20
+Temat: Diagramy związków encji
+

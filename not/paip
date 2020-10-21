@@ -26,3 +26,32 @@ double f(x) {
 
     return 0;
 }
+
+
+Lekcja 9/10/20
+Temat: Iteracja
+
+Iteracja
+Inaczej zwana pętlą, oznacza wielokrotne wykonywanie instrukcji.
+
+z1
+algorytm który obliczy sume pierwszych dziesięciu liczb naturalnych za pomocą iteracji i przed zakończeniem algorytmu wyświetli wynik
+
+z2
+algorytm obliczający iloczyn n liczb naturalnych zaczynając od 3
+
+z3
+algorytm który wyświetla na ekranie monitora 10 kolejnych liczb całkowitych począwszy od 1
+
+z4
+algorytm obliczający sumę wprowadzanych z klawiatury liczb rzeczywistych niewiększych od 50, wczytywanie liczb kończy wprowadzenie wartości większej od 50
+
+z5
+algorytm obliczający sume kolejnych parzystych liczb całkowitych począwszy od 2 i wypisz wynik
+
+z6
+ojciec daje synowi przez 30 dni pieniądze w następujący sposób:
+1 dnia syn dostaje 2zł
+każdego następnego otrzymuje 2zł więcej niz wcześniejszego dnia
+oblicz ile pieniędzy syn będzie miał po n dniach i wypisz
+
