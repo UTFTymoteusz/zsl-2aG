@@ -1,0 +1,65 @@
+Lekcja ??/??/??
+Temat: ?
+
+Baza danych 
+Zbiór struktur danych służących do organizowania i przechowywania danych
+
+Baza danych to zintegrowana grupa ogólnie dostępnych zbiorów danych
+
+Relacja to podstawowa forma realizacji danych
+
+Baza danych jest zarządzana przez System Zarządzania Bazą Danych (SZBD)
+
+Operacyjna BD przecnowuje dane dynamiczne najczęstrze
+
+Lekcja ??/??/??
+Temat: ?
+
+Modele BD
+ - Hierarchiczny
+ - Sieciowy
+ - Relacyjny
+ - Obiektowy
+ - Postrelacyjny
+
+Redundacja - duplikacja danych w różnych plikach
+
+Lekcja 1/10/20
+Temat: Podstawowe pojęcia relacyjnej bazy danych.
+
+Rekord (krotka)
+Struktura pozioma opisująca jeden objekt. Składa się on z pól opisujących dokładnie cechy objektu, np. pojedynczego pracownika.
+
+Pole (field, atrybut, kolumna)
+Struktura danych opisująca pojedynczą daną w rekordzie, np. nazwisko.
+
+Tabela
+Zbiór rekordów opisujących objekty w sposób ujednolicony, tzn. każdy rekord posiada te same nazwy pól.
+
+        Pole
+        ____ ________
+Rekord |____|________|
+       |____|________|
+
+Klucz podstawowy (primary key)
+Jedno lub więcej pól których wartość jednoznacznie identyfikuje rekord w tabeli (że się nie powtarzają). Ta cecha jest nazywana unikatowością.
+Klucz podstawowy służy do powiązania rekordów w jednej tabeli z rekordami w innej tabeli. (tworzenia relacji, działa jak pointery w C++) Klucz podstawowy z innej tabeli to foreign key. Mogą występować klucze podstawowe składające się z kilku pól.
+
+Relacja
+Opisuje zależności między tabelami. 
+
+Rodzaje:
+jeden-do-jednego, 1:1
+Każdy rekord w tabeli A może mieć tylko jeden dopasowany rekord w tabeli B i każdy rekord z tabeli B może mieć tylko jeden dopasowany rekord z tabeli A.
+
+jeden-do-wielu 1:∞
+Każdemu rekordowi z tabeli A może odpowiadać wiele rekordów z tabeli B, ale jednemu rekordowi z tabeli B może odpowiadać tylko jeden rekord z tabeli A.
+
+wiele-do-wielu ∞:∞
+No po prostu wiele do wielu
+W przypadku wystąpiena relacji wiele-do-wielu, definiuje się dodatkową tabelę która pozwala zdefiniować dwie relacje jeden-do-wielu.
+
+
+Lekcja 8/10/20
+Temat: Diagramy związków encji
+

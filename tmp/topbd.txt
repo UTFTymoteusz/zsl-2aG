@@ -1,0 +1,58 @@
+Baza danych - zbiór struktur danych służących do organizowania i przechowywania danych. W takim modelu danych musi istnieć zbiór reguł określających wykorzystanie takich struktur danych w aplikacji.
+
+Baza danych + system zarządzania bazą danych = system bazy danych
+
+BazaD jest zarządzana przez SZBD
+
+System bazy danych współpracuje z programami użytkowników, aplikacjami
+
+BD + SZBD + Aplikacje wchodzą w skład systemu informatycznego
+
+SZBD - Pakiet programowy służący do zarządzania danymi. Podstawowymi elementami są:
+-jezyk zapytań (SQL)
+-Generator raportów
+-jezyk manipulacji danymi
+-jezyk definicji danych
+Przykłady: MS Access, MySQL, Oracle, MS SQL Access
+
+SZBD rozwiązują problemy:
+-redundancji i niespójności danych (redundancja-duplkacja danych w różnych plikach)
+-trudność w dostępie do danych
+-rozczłonkowanie danych
+-integralność danych
+-granulacja modyfikacji danych
+-współbieżny dostęp użytkowników
+-bezpieczeństwo
+
+Typy BZ
+Operacyjne - przechowuje dane dynamiczne
+Analityczne - przechowuje dane historyczne, statyczne (takie archiwum)
+
+Modele BZ
+1. Model hierarchiczny
+W postaci drzewa. Informacja jest zawarta w dokumentach oraz strukturze drzewa
+2. Model sieciowy
+Informacja jest zawarta w dokumentach oraz w przebiegu połączeń sieci.
+3. Model relacyjny
+Zapisywana w tabeli w formie wierszy. Tabele tworzą między sobą relacje. Jest najczęściej używany
+4. Model obiektowy
+5. Model postrelacyjny
+
+Relacyjna BZ budowa
+1.Rekord (krotka)
+Struktura pozioma opisująca jeden obiekt. Składa się z pół opisujących dokładne cechy obiektu.
+2. Pole (atrybut, field, kolumna)
+Struktura danych opisująca pojedynczą daną w rekordzie
+3. Tabela
+Zbiór rekordów opisujących obiekty w sposób ujednolicony tz. Każdy rekord posada te same nazwy pół.
+4.Klucz podstawowy
+Jedno lub więcej pół których wartość jednoznacznie identyfikuję rekord w tabeli. Ta cecha jest nazywana unikatowością. Służy do powiązania rekordów w jednej tabeli z rekordami w innej tabeli.
+5. Relacja - opisuje zależności między tabelami.
+
+Rodzaje relacji
+1:1
+Każdy rekord w A ma jeden rekord w B i odwrotnie.
+1:wielu
+Każdemu rekordowi z A może odpowiadać wiele rekordów z B, ale jednemu rekordowi z B może odpowiadać tylko jeden rekord z A
+Wiele:wielu
+Rekord w A może mieć dopasowane wiele rekordów w B i odwrotnie
