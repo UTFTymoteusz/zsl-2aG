@@ -16,6 +16,13 @@
 6 c
 7 b
 
+ćw 7
+1cb
+2ab
+3cb
+4ab
+5cb
+
 8.
 1 picked up~ got
 2 cut~ outage

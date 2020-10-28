@@ -1,5 +1,16 @@
-1.
-
+cw 1
+1 app
+2 attached
+3 send
+4 e-mail
+5 downloaded
+6 check
+7 interface
+8 open
+9 save
+10 visit
+11 surf
+12 text
 
 2.
 1 B
